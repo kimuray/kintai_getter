@@ -13,9 +13,9 @@ $ export SLACK_API_TOKEN=取得したキー
 
 * 実行
 ```
-git clone git@github.com:kimuray/kintai_getter.git
-cd kintai_getter
-irb
+$ git clone git@github.com:kimuray/kintai_getter.git
+$ cd kintai_getter
+$ irb
 >> require './kintai_getter'
 >> kintai = KintaiGetter.new(channel_name: 'all-today_to_do', 
 >>   user_name: 'kimuray', 

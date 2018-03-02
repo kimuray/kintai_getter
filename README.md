@@ -15,5 +15,12 @@ $ export SLACK_API_TOKEN=取得したキー
 ```
 $ git clone git@github.com:kimuray/kintai_getter.git
 $ cd kintai_getter
-$ bin/kintai_getter kimuray 2018-01-01 2018-01-31
+$ bin/kintai_getter kimuray 2018-02-01 2018-02-28
+02月02日 【出勤】10:00-19:00
+02月04日 退勤 10:00-19:30
+02月05日 【出勤】10:00-19:00
+02月05日 【退勤】10:00-19:00
+02月06日 【出勤】10:00-19:00
+02月06日 退勤10:00-19:00
+02月07日 【出勤】10:00-19:00
 ```

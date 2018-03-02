@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require './kintai_getter'
+
+st_at = ARGV[1].split('-')
+ed_at = ARGV[2].split('-')
+
+kintai = KintaiGetter.new(
+  channel_name: 'all-today_to_do',
+  user_name: ARGV[0],
+  start_date: Time.local(st_at[0], st_at[1], st_at[2]),
+  last_date: Time.local(ed_at[0], ed_at[1], ed_at[2])
+)
+
+kintai.execute

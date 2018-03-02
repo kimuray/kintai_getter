@@ -3,6 +3,8 @@
 ※ 実行しすぎると一時的に使用できなくなるので注意
 
 ## 使用方法
+* `bundle install` 
+
 * SlackのAPIキーを取得
 https://api.slack.com/custom-integrations/legacy-tokens
 
@@ -24,3 +26,7 @@ $ bin/kintai_getter kimuray 2018-02-01 2018-02-28
 02月06日 退勤10:00-19:00
 02月07日 【出勤】10:00-19:00
 ```
+
+
+
+
